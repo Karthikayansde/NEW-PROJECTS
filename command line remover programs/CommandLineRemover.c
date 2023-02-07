@@ -55,7 +55,8 @@ int main(){
 			}
 		}
 	}
-	
+	fclose(inPtr);
+	fclose(outPtr);
 	printf("process done.");
 	
 	return 0;
